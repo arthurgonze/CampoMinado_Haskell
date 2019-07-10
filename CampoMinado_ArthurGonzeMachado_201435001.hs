@@ -1,3 +1,6 @@
+-- Aluno: Arthur Gonze Machado
+-- Matricula: 201435001
+
 {-# LANGUAGE FlexibleInstances #-}
 -- Observacao: Eh necessario o pragma acima para declaracao do tipo nao-atomico: 
 -- instance AddTres [Int] where ...
