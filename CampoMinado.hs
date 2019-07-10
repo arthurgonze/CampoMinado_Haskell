@@ -186,7 +186,7 @@ jogar minas tam = tabuleiroDeJogo abertos marcados
 	                    (tabuleiroDeJogo (abrePos contador (row,col) abertos)marcados)
 	            }
 	}
--- Abre todos as posicoes no fecho 
+-- Abre a posicao do input do jogador 
 abrePos :: [[Int]] -> (Int,Int) -> [[Bool]] -> [[Bool]]
 abrePos contador posicao 
   = foldr (.) id $ 
@@ -214,3 +214,4 @@ insereInt r val
 -- Busca em vetor
 (!!!) :: [[a]] -> (Int,Int) -> a
 xss!!!(p,q) = xss!!p!!q
+
