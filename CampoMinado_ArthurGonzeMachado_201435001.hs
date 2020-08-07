@@ -171,7 +171,7 @@ jogar minas tam = tabuleiroDeJogo abertos marcados
             jogada <- getChar ;
 	        if jogada == 's' -- sai
 	            then do { putStr "\nsair" ; return () }
-	        else if not (elem jogada "smur") -- ignora jogada invalida
+	        else if not (elem jogada "rmds") -- ignora jogada invalida
 	            then do { putStr "\n" ; tabuleiroDeJogo abertos marcados } -- jogada
 	        else 
 	            do {
