@@ -1,2 +1,1 @@
-Campo Minado desenvolvido em Haskell como trabalho final da disciplina Linguagens de Programação.
-Minesweeper developed in Haskell as a final college project for Programming Languages class.
+This Minesweeper project was developed in 2019 using Haskell and is entirely playable on a terminal. This was a college project for a Programming Languages class.
